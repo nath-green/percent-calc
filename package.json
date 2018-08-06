@@ -1,0 +1,25 @@
+{
+  "name": "percent-calc",
+  "version": "1.0.0",
+  "description": "Helper functions for basic percentage calculations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nath-green/percent-calc.git"
+  },
+  "keywords": [
+    "percentage",
+    "calculator",
+    "percent",
+    "calc"
+  ],
+  "author": "Nathan Green <hello@nathgreen.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nath-green/percent-calc/issues"
+  },
+  "homepage": "https://github.com/nath-green/percent-calc#readme"
+}
