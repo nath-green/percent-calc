@@ -34,3 +34,20 @@ describe('of', function () {
     assert.equal(result, 10.230)
   })
 })
+
+describe('of what', function () {
+  it('30% of what is 150', function () {
+    let result = percent.ofWhat(30, 150)
+    assert.equal(result, 500.00)
+  })
+
+  it('60% of what is 175', function () {
+    let result = percent.ofWhat(60, 175)
+    assert.equal(result, 291.67)
+  })
+
+  it('three decimal', function () {
+    let result = percent.ofWhat(60, 175, 3)
+    assert.equal(result, 291.667)
+  })
+})

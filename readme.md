@@ -37,3 +37,16 @@ Params:
 * num1
 * num2
 * decimal (optional, default 2)
+
+#### ofWhat()
+
+`num1`% of what is `num2`
+
+`30`% of what is `150`
+
+`percent.ofWhat(30, 150) // 500.00`
+
+Params:
+* num1
+* num2
+* decimal (optional, default 2)

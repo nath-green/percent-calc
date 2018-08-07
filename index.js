@@ -6,6 +6,10 @@ class Percent {
   static of (num1, num2, decimal = 2) {
     return ((num2 / 100) * num1).toFixed(decimal)
   }
+
+  static ofWhat (num1, num2, decimal = 2) {
+    return ((num2 / num1) * 100).toFixed(decimal)
+  }
 }
 
 module.exports = Percent
